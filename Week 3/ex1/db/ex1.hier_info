@@ -1,0 +1,6 @@
+|ex1
+LED[0] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+SW[0] => inst.IN1
+SW[1] => inst.IN0
+
+
