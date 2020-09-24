@@ -9,39 +9,23 @@ generate
 	for (j = 0; j < 6; j = j + 1)
 		begin: gen2
 			case(j)
-				0: assign HEX[1]=~KEY[0],
-							HEX[2]=~KEY[0];
-				1: assign HEX[0+j*8]=~KEY[0],
-							HEX[1+j*8]=~KEY[0],
-							HEX[2+j*8]=~KEY[0],
-							HEX[3+j*8]=~KEY[0],
-							HEX[4+j*8]=~KEY[0],
-							HEX[5+j*8]=~KEY[0],
+				0: assign HEX[3]=~KEY[0], //1
+							HEX[4]=~KEY[0],
+							HEX[5]=~KEY[0], 
+							HEX[6]=~KEY[0],
+							HEX[7]=~KEY[0];
+				1: assign HEX[6+j*8]=~KEY[0]; //0.
+				2: assign HEX[6+j*8]=~KEY[0], //0
 							HEX[7+j*8]=~KEY[0];
-				2: assign HEX[0+j*8]=~KEY[0],
-							HEX[1+j*8]=~KEY[0],
-							HEX[2+j*8]=~KEY[0],
+				3: assign HEX[0+j*8]=~KEY[0], //4.
 							HEX[3+j*8]=~KEY[0],
-							HEX[4+j*8]=~KEY[0],
-							HEX[5+j*8]=~KEY[0];
-				3: assign HEX[1+j*8]=~KEY[0],
-							HEX[2+j*8]=~KEY[0],
-							HEX[5+j*8]=~KEY[0],
-							HEX[6+j*8]=~KEY[0],
+							HEX[4+j*8]=~KEY[0];
+				4: assign HEX[6+j*8]=~KEY[0], //0
 							HEX[7+j*8]=~KEY[0];
-				4: assign HEX[0+j*8]=~KEY[0],
-							HEX[1+j*8]=~KEY[0],
+				5: assign HEX[5+j*8]=~KEY[0], //2
 							HEX[2+j*8]=~KEY[0],
-							HEX[3+j*8]=~KEY[0],
-							HEX[4+j*8]=~KEY[0],
-							HEX[5+j*8]=~KEY[0];
-				5: assign HEX[0+j*8]=~KEY[0],
-							HEX[1+j*8]=~KEY[0],
-							HEX[6+j*8]=~KEY[0],
-							HEX[4+j*8]=~KEY[0],	
-							HEX[3+j*8]=~KEY[0],
 							HEX[7+j*8]=~KEY[0];
-			endcase
+				endcase
 		end
 endgenerate
 endmodule

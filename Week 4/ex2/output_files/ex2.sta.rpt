@@ -1,5 +1,5 @@
 Timing Analyzer report for ex2
-Thu Sep 24 15:21:05 2020
+Thu Sep 24 15:38:56 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -89,12 +89,12 @@ refer to the applicable agreement for further details.
 ; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.02        ;
+; Average used               ; 1.01        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;   0.7%      ;
+;     Processors 2-4         ;   0.5%      ;
 +----------------------------+-------------+
 
 
@@ -505,9 +505,9 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 ; Illegal Clocks                  ; 0     ; 0    ;
 ; Unconstrained Clocks            ; 0     ; 0    ;
 ; Unconstrained Input Ports       ; 1     ; 1    ;
-; Unconstrained Input Port Paths  ; 32    ; 32   ;
-; Unconstrained Output Ports      ; 32    ; 32   ;
-; Unconstrained Output Port Paths ; 32    ; 32   ;
+; Unconstrained Input Port Paths  ; 16    ; 16   ;
+; Unconstrained Output Ports      ; 16    ; 16   ;
+; Unconstrained Output Port Paths ; 16    ; 16   ;
 +---------------------------------+-------+------+
 
 
@@ -525,37 +525,21 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 +-------------+---------------------------------------------------------------------------------------+
 ; Output Port ; Comment                                                                               ;
 +-------------+---------------------------------------------------------------------------------------+
-; HEX[1]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[2]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[8]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[9]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[10]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[11]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[12]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[13]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[15]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[16]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[17]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[18]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[19]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[20]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[21]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[25]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[26]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[29]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[30]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[31]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[32]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[33]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[34]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[35]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[36]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[37]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[40]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[41]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[43]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[44]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[46]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX[3]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX[4]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX[5]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX[6]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX[7]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX[14]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX[22]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX[23]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX[24]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX[27]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX[28]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX[38]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX[39]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX[42]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX[45]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; HEX[47]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 +-------------+---------------------------------------------------------------------------------------+
 
@@ -574,37 +558,21 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 +-------------+---------------------------------------------------------------------------------------+
 ; Output Port ; Comment                                                                               ;
 +-------------+---------------------------------------------------------------------------------------+
-; HEX[1]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[2]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[8]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[9]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[10]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[11]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[12]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[13]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[15]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[16]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[17]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[18]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[19]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[20]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[21]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[25]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[26]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[29]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[30]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[31]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[32]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[33]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[34]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[35]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[36]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[37]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[40]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[41]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[43]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[44]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HEX[46]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX[3]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX[4]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX[5]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX[6]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX[7]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX[14]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX[22]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX[23]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX[24]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX[27]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX[28]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX[38]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX[39]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX[42]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HEX[45]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; HEX[47]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 +-------------+---------------------------------------------------------------------------------------+
 
@@ -615,7 +583,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Sep 24 15:21:02 2020
+    Info: Processing started: Thu Sep 24 15:38:53 2020
 Info: Command: quartus_sta ex2 -c ex2
 Info: qsta_default_script.tcl version: #1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -664,9 +632,9 @@ Info (332140): No Minimum Pulse Width paths to report
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime Timing Analyzer was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 4826 megabytes
-    Info: Processing ended: Thu Sep 24 15:21:05 2020
+    Info: Peak virtual memory: 4820 megabytes
+    Info: Processing ended: Thu Sep 24 15:38:56 2020
     Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:03
+    Info: Total CPU time (on all processors): 00:00:02
 
 

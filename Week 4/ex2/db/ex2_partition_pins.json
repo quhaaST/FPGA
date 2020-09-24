@@ -4,127 +4,63 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "HEX[1]",
+					"name" : "HEX[3]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX[2]",
+					"name" : "HEX[4]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX[8]",
+					"name" : "HEX[5]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX[9]",
+					"name" : "HEX[6]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX[10]",
+					"name" : "HEX[7]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX[11]",
+					"name" : "HEX[14]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX[12]",
+					"name" : "HEX[22]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX[13]",
+					"name" : "HEX[23]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX[15]",
+					"name" : "HEX[24]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX[16]",
+					"name" : "HEX[27]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX[17]",
+					"name" : "HEX[28]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX[18]",
+					"name" : "HEX[38]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX[19]",
+					"name" : "HEX[39]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX[20]",
+					"name" : "HEX[42]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX[21]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX[25]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX[26]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX[29]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX[30]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX[31]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX[32]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX[33]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX[34]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX[35]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX[36]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX[37]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX[40]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX[41]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX[43]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX[44]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX[46]",
+					"name" : "HEX[45]",
 					"strict" : false
 				},
 				{

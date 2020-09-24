@@ -1,5 +1,5 @@
 Fitter report for ex2
-Thu Sep 24 15:20:56 2020
+Thu Sep 24 15:38:48 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -61,7 +61,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Thu Sep 24 15:20:56 2020       ;
+; Fitter Status                      ; Successful - Thu Sep 24 15:38:48 2020       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; ex2                                         ;
 ; Top-level Entity Name              ; ex2                                         ;
@@ -242,11 +242,11 @@ The pin-out file can be found in C:/Users/79030/Desktop/FPGA/Week 4/ex2/output_f
 ; Oscillator blocks                           ; 0 / 1 ( 0 % )         ;
 ; Impedance control blocks                    ; 0 / 1 ( 0 % )         ;
 ; Average interconnect usage (total/H/V)      ; 0.0% / 0.0% / 0.0%    ;
-; Peak interconnect usage (total/H/V)         ; 0.2% / 0.1% / 0.2%    ;
-; Maximum fan-out                             ; 32                    ;
-; Highest non-global fan-out                  ; 32                    ;
-; Total fan-out                               ; 93                    ;
-; Average fan-out                             ; 0.78                  ;
+; Peak interconnect usage (total/H/V)         ; 0.1% / 0.1% / 0.2%    ;
+; Maximum fan-out                             ; 17                    ;
+; Highest non-global fan-out                  ; 17                    ;
+; Total fan-out                               ; 77                    ;
+; Average fan-out                             ; 0.64                  ;
 +---------------------------------------------+-----------------------+
 *  Register count does not include registers inside RAM blocks or DSP blocks.
 
@@ -295,7 +295,7 @@ The pin-out file can be found in C:/Users/79030/Desktop/FPGA/Week 4/ex2/output_f
 ;     -- Registered Output Connections        ; 0                   ; 0                              ;
 ;                                             ;                     ;                                ;
 ; Internal Connections                        ;                     ;                                ;
-;     -- Total Connections                    ; 99                  ; 8                              ;
+;     -- Total Connections                    ; 83                  ; 8                              ;
 ;     -- Registered Connections               ; 0                   ; 0                              ;
 ;                                             ;                     ;                                ;
 ; External Connections                        ;                     ;                                ;
@@ -328,7 +328,7 @@ The pin-out file can be found in C:/Users/79030/Desktop/FPGA/Week 4/ex2/output_f
 +--------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
 ; Name   ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; Power Up High ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination Control Block ; Location assigned by ; Slew Rate ;
 +--------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
-; KEY[0] ; B8    ; 7        ; 46           ; 54           ; 28           ; 32                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; 0         ;
+; KEY[0] ; B8    ; 7        ; 46           ; 54           ; 28           ; 16                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; 0         ;
 ; KEY[1] ; A7    ; 7        ; 49           ; 54           ; 28           ; 0                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; 0         ;
 +--------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
 
@@ -1037,7 +1037,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; HEX[45] ; Output   ; --            ; --            ; --                    ; --  ; --   ;
 ; HEX[46] ; Output   ; --            ; --            ; --                    ; --  ; --   ;
 ; HEX[47] ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; KEY[0]  ; Input    ; --            ; (6) 868 ps    ; --                    ; --  ; --   ;
+; KEY[0]  ; Input    ; (6) 868 ps    ; --            ; --                    ; --  ; --   ;
 +---------+----------+---------------+---------------+-----------------------+-----+------+
 
 
@@ -1048,38 +1048,22 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-------------------+---------+
 ; KEY[1]                ;                   ;         ;
 ; KEY[0]                ;                   ;         ;
-;      - HEX[47]~output ; 1                 ; 6       ;
-;      - HEX[46]~output ; 1                 ; 6       ;
-;      - HEX[44]~output ; 1                 ; 6       ;
-;      - HEX[43]~output ; 1                 ; 6       ;
-;      - HEX[41]~output ; 1                 ; 6       ;
-;      - HEX[40]~output ; 1                 ; 6       ;
-;      - HEX[37]~output ; 1                 ; 6       ;
-;      - HEX[36]~output ; 1                 ; 6       ;
-;      - HEX[35]~output ; 1                 ; 6       ;
-;      - HEX[34]~output ; 1                 ; 6       ;
-;      - HEX[33]~output ; 1                 ; 6       ;
-;      - HEX[32]~output ; 1                 ; 6       ;
-;      - HEX[31]~output ; 1                 ; 6       ;
-;      - HEX[30]~output ; 1                 ; 6       ;
-;      - HEX[29]~output ; 1                 ; 6       ;
-;      - HEX[26]~output ; 1                 ; 6       ;
-;      - HEX[25]~output ; 1                 ; 6       ;
-;      - HEX[21]~output ; 1                 ; 6       ;
-;      - HEX[20]~output ; 1                 ; 6       ;
-;      - HEX[19]~output ; 1                 ; 6       ;
-;      - HEX[18]~output ; 1                 ; 6       ;
-;      - HEX[17]~output ; 1                 ; 6       ;
-;      - HEX[16]~output ; 1                 ; 6       ;
-;      - HEX[15]~output ; 1                 ; 6       ;
-;      - HEX[13]~output ; 1                 ; 6       ;
-;      - HEX[12]~output ; 1                 ; 6       ;
-;      - HEX[11]~output ; 1                 ; 6       ;
-;      - HEX[10]~output ; 1                 ; 6       ;
-;      - HEX[9]~output  ; 1                 ; 6       ;
-;      - HEX[8]~output  ; 1                 ; 6       ;
-;      - HEX[2]~output  ; 1                 ; 6       ;
-;      - HEX[1]~output  ; 1                 ; 6       ;
+;      - HEX[47]~output ; 0                 ; 6       ;
+;      - HEX[45]~output ; 0                 ; 6       ;
+;      - HEX[42]~output ; 0                 ; 6       ;
+;      - HEX[39]~output ; 0                 ; 6       ;
+;      - HEX[38]~output ; 0                 ; 6       ;
+;      - HEX[28]~output ; 0                 ; 6       ;
+;      - HEX[27]~output ; 0                 ; 6       ;
+;      - HEX[24]~output ; 0                 ; 6       ;
+;      - HEX[23]~output ; 0                 ; 6       ;
+;      - HEX[22]~output ; 0                 ; 6       ;
+;      - HEX[14]~output ; 0                 ; 6       ;
+;      - HEX[7]~output  ; 0                 ; 6       ;
+;      - HEX[6]~output  ; 0                 ; 6       ;
+;      - HEX[5]~output  ; 0                 ; 6       ;
+;      - HEX[4]~output  ; 0                 ; 6       ;
+;      - HEX[3]~output  ; 0                 ; 6       ;
 +-----------------------+-------------------+---------+
 
 
@@ -1088,15 +1072,15 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+------------------------+
 ; Routing Resource Type ; Usage                  ;
 +-----------------------+------------------------+
-; Block interconnects   ; 22 / 148,641 ( < 1 % ) ;
-; C16 interconnects     ; 5 / 5,382 ( < 1 % )    ;
-; C4 interconnects      ; 21 / 106,704 ( < 1 % ) ;
+; Block interconnects   ; 15 / 148,641 ( < 1 % ) ;
+; C16 interconnects     ; 6 / 5,382 ( < 1 % )    ;
+; C4 interconnects      ; 19 / 106,704 ( < 1 % ) ;
 ; Direct links          ; 0 / 148,641 ( 0 % )    ;
 ; Global clocks         ; 0 / 20 ( 0 % )         ;
 ; Local interconnects   ; 0 / 49,760 ( 0 % )     ;
 ; NSLEEPs               ; 0 / 500 ( 0 % )        ;
-; R24 interconnects     ; 6 / 5,406 ( < 1 % )    ;
-; R4 interconnects      ; 10 / 147,764 ( < 1 % ) ;
+; R24 interconnects     ; 7 / 5,406 ( < 1 % )    ;
+; R4 interconnects      ; 11 / 147,764 ( < 1 % ) ;
 +-----------------------+------------------------+
 
 
@@ -1341,7 +1325,7 @@ Info (332130): Timing requirements not specified -- quality metrics such as perf
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:00
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
@@ -1363,10 +1347,10 @@ Info (334004): Delay annotation completed successfully
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
 Info (144001): Generated suppressed messages file C:/Users/79030/Desktop/FPGA/Week 4/ex2/output_files/ex2.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 5635 megabytes
-    Info: Processing ended: Thu Sep 24 15:20:57 2020
+    Info: Peak virtual memory: 5638 megabytes
+    Info: Processing ended: Thu Sep 24 15:38:49 2020
     Info: Elapsed time: 00:00:07
-    Info: Total CPU time (on all processors): 00:00:10
+    Info: Total CPU time (on all processors): 00:00:09
 
 
 +----------------------------+

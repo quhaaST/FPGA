@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ex2
-Thu Sep 24 15:20:49 2020
+Thu Sep 24 15:38:41 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -42,7 +42,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Sep 24 15:20:49 2020       ;
+; Analysis & Synthesis Status        ; Successful - Thu Sep 24 15:38:41 2020       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; ex2                                         ;
 ; Top-level Entity Name              ; ex2                                         ;
@@ -197,9 +197,9 @@ refer to the applicable agreement for further details.
 ; Embedded Multiplier 9-bit elements          ; 0            ;
 ;                                             ;              ;
 ; Maximum fan-out node                        ; KEY[0]~input ;
-; Maximum fan-out                             ; 32           ;
-; Total fan-out                               ; 82           ;
-; Average fan-out                             ; 0.82         ;
+; Maximum fan-out                             ; 16           ;
+; Total fan-out                               ; 66           ;
+; Average fan-out                             ; 0.66         ;
 +---------------------------------------------+--------------+
 
 
@@ -259,38 +259,54 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Sep 24 15:20:38 2020
+    Info: Processing started: Thu Sep 24 15:38:32 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ex2 -c ex2
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file ex2.v
     Info (12023): Found entity 1: ex2 File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 1
 Info (12127): Elaborating entity "ex2" for the top level hierarchy
-Warning (10034): Output port "HEX[45]" at ex2.v(5) has no driver File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
-Warning (10034): Output port "HEX[42]" at ex2.v(5) has no driver File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
-Warning (10034): Output port "HEX[39..38]" at ex2.v(5) has no driver File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
-Warning (10034): Output port "HEX[28..27]" at ex2.v(5) has no driver File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
-Warning (10034): Output port "HEX[24..22]" at ex2.v(5) has no driver File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
-Warning (10034): Output port "HEX[14]" at ex2.v(5) has no driver File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
-Warning (10034): Output port "HEX[7..3]" at ex2.v(5) has no driver File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
-Warning (10034): Output port "HEX[0]" at ex2.v(5) has no driver File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+Warning (10034): Output port "HEX[46]" at ex2.v(5) has no driver File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+Warning (10034): Output port "HEX[44..43]" at ex2.v(5) has no driver File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+Warning (10034): Output port "HEX[41..40]" at ex2.v(5) has no driver File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+Warning (10034): Output port "HEX[37..29]" at ex2.v(5) has no driver File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+Warning (10034): Output port "HEX[26..25]" at ex2.v(5) has no driver File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+Warning (10034): Output port "HEX[21..15]" at ex2.v(5) has no driver File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+Warning (10034): Output port "HEX[13..8]" at ex2.v(5) has no driver File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+Warning (10034): Output port "HEX[2..0]" at ex2.v(5) has no driver File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "HEX[0]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
-    Warning (13410): Pin "HEX[3]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
-    Warning (13410): Pin "HEX[4]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
-    Warning (13410): Pin "HEX[5]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
-    Warning (13410): Pin "HEX[6]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
-    Warning (13410): Pin "HEX[7]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
-    Warning (13410): Pin "HEX[14]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
-    Warning (13410): Pin "HEX[22]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
-    Warning (13410): Pin "HEX[23]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
-    Warning (13410): Pin "HEX[24]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
-    Warning (13410): Pin "HEX[27]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
-    Warning (13410): Pin "HEX[28]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
-    Warning (13410): Pin "HEX[38]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
-    Warning (13410): Pin "HEX[39]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
-    Warning (13410): Pin "HEX[42]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
-    Warning (13410): Pin "HEX[45]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+    Warning (13410): Pin "HEX[1]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+    Warning (13410): Pin "HEX[2]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+    Warning (13410): Pin "HEX[8]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+    Warning (13410): Pin "HEX[9]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+    Warning (13410): Pin "HEX[10]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+    Warning (13410): Pin "HEX[11]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+    Warning (13410): Pin "HEX[12]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+    Warning (13410): Pin "HEX[13]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+    Warning (13410): Pin "HEX[15]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+    Warning (13410): Pin "HEX[16]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+    Warning (13410): Pin "HEX[17]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+    Warning (13410): Pin "HEX[18]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+    Warning (13410): Pin "HEX[19]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+    Warning (13410): Pin "HEX[20]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+    Warning (13410): Pin "HEX[21]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+    Warning (13410): Pin "HEX[25]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+    Warning (13410): Pin "HEX[26]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+    Warning (13410): Pin "HEX[29]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+    Warning (13410): Pin "HEX[30]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+    Warning (13410): Pin "HEX[31]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+    Warning (13410): Pin "HEX[32]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+    Warning (13410): Pin "HEX[33]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+    Warning (13410): Pin "HEX[34]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+    Warning (13410): Pin "HEX[35]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+    Warning (13410): Pin "HEX[36]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+    Warning (13410): Pin "HEX[37]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+    Warning (13410): Pin "HEX[40]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+    Warning (13410): Pin "HEX[41]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+    Warning (13410): Pin "HEX[43]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+    Warning (13410): Pin "HEX[44]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
+    Warning (13410): Pin "HEX[46]" is stuck at GND File: C:/Users/79030/Desktop/FPGA/Week 4/ex2/ex2.v Line: 5
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 1 input pin(s) that do not drive logic
@@ -298,10 +314,10 @@ Warning (21074): Design contains 1 input pin(s) that do not drive logic
 Info (21057): Implemented 50 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 48 output pins
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 28 warnings
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 44 warnings
     Info: Peak virtual memory: 4741 megabytes
-    Info: Processing ended: Thu Sep 24 15:20:49 2020
-    Info: Elapsed time: 00:00:11
-    Info: Total CPU time (on all processors): 00:00:25
+    Info: Processing ended: Thu Sep 24 15:38:41 2020
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:21
 
 
