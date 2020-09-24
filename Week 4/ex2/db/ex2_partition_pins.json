@@ -1,0 +1,141 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "HEX[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[8]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[9]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[10]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[11]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[12]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[13]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[15]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[16]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[17]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[18]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[19]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[20]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[21]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[25]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[26]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[29]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[30]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[31]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[32]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[33]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[34]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[35]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[36]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[37]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[40]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[41]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[43]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[44]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[46]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[47]",
+					"strict" : false
+				},
+				{
+					"name" : "KEY[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
