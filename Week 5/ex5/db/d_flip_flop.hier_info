@@ -1,0 +1,39 @@
+|d_flip_flop
+clk => clk.IN1
+d => d.IN1
+q <= d_latch:slave.q
+q_n <= d_latch:slave.q_n
+
+
+|d_flip_flop|d_latch:master
+clk => comb.IN0
+clk => comb.IN0
+d => comb.IN1
+d => comb.IN1
+q <= sr_latch:sr_latch.port2
+q_n <= sr_latch:sr_latch.port3
+
+
+|d_flip_flop|d_latch:master|sr_latch:sr_latch
+s => q_n.IN0
+r => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+q_n <= q_n.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|d_flip_flop|d_latch:slave
+clk => comb.IN0
+clk => comb.IN0
+d => comb.IN1
+d => comb.IN1
+q <= sr_latch:sr_latch.port2
+q_n <= sr_latch:sr_latch.port3
+
+
+|d_flip_flop|d_latch:slave|sr_latch:sr_latch
+s => q_n.IN0
+r => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+q_n <= q_n.DB_MAX_OUTPUT_PORT_TYPE
+
+

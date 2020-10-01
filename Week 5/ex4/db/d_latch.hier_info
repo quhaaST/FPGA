@@ -1,0 +1,16 @@
+|d_latch
+clk => comb.IN0
+clk => comb.IN0
+d => comb.IN1
+d => comb.IN1
+q << sr_latch:sr_latch.port2
+q_n << sr_latch:sr_latch.port3
+
+
+|d_latch|sr_latch:sr_latch
+s => q_n.IN0
+r => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+q_n <= q_n.DB_MAX_OUTPUT_PORT_TYPE
+
+

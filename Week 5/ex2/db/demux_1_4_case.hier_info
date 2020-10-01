@@ -1,0 +1,13 @@
+|demux_1_4_case
+din => dout0.DATAB
+din => dout1.DATAB
+din => dout2.DATAB
+din => dout3.DATAB
+sel[0] => Decoder0.IN1
+sel[1] => Decoder0.IN0
+dout0 <= dout0.DB_MAX_OUTPUT_PORT_TYPE
+dout1 <= dout1.DB_MAX_OUTPUT_PORT_TYPE
+dout2 <= dout2.DB_MAX_OUTPUT_PORT_TYPE
+dout3 <= dout3.DB_MAX_OUTPUT_PORT_TYPE
+
+

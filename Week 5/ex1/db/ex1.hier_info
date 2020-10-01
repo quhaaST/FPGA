@@ -1,0 +1,10 @@
+|ex1
+x1 => out.DATAA
+x2 => out.DATAB
+x3 => ~NO_FANOUT~
+x4 => ~NO_FANOUT~
+s1 => always0.IN0
+s2 => always0.IN1
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
