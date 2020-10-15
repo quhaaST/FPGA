@@ -14,7 +14,7 @@
 	
 	move $t0, $a0
 	
-	la $a0, string_buffer # store a string
+	la $a0, string_buffer # print a string
 	move $a0, $t0
 	li $v0, 4
 	syscall
