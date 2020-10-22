@@ -11,16 +11,23 @@
 	move $t0, $v0 # store integer
 	move $t2, $zero
 	
-recursion:
-	blez $t0, end # check if recursion should stop
-	add $t2, $t2, $t0
-	addi $t0, $t0, -1 
-	j recursion
+	move $a0, $t0
+	move $a1, $t2
 	
-end:
+	jal recursion
+	
+	move $a0, $v0
 	li $v0, 1 # print value
-	move $a0, $t2
 	syscall
 	
 	li $v0, 10 # terminate the program
 	syscall
+	
+recursion:
+	add $v0, $a0, $a1
+	addi $v1, $a0, -1
+	move $a1, $v0
+	move $a0, $v1
+	bgtz $v1, recursion # recurse while not complete
+	jr $ra
+	
