@@ -1,5 +1,5 @@
 .data
-	text1: .asciiz "Enter n to get sum of 1 to n numbers: "
+	text1: .asciiz "Enter n: "
 .text
 	li $v0, 4 # print text
 	la $a0, text1
@@ -12,9 +12,12 @@
 	move $t2, $zero
 	
 	move $a0, $t0
-	move $a1, $t2
+	add $a1, $t2, 1
+	move $a2, $t2
 	
-	jal recursion
+	move $v0, $a1 # store information to function variables
+	move $v1, $a2
+	jal func
 	
 	move $a0, $v0
 	li $v0, 1 # print value
@@ -23,13 +26,8 @@
 	li $v0, 10 # terminate the program
 	syscall
 	
-recursion:
-	add $v0, $a0, $a1
-	addi $v1, $a0, -1
-	move $a1, $v0
-	move $a0, $v1
-	bgtz $v1, repeat # recurse while not complete
+func:
+	mul $v0, $v0, 2 # computing power in function variables
+	addi $v1, $v1, 1
+	bgt $a0, $v1, func # recurse while not complete
 	jr $ra
-repeat:
-	jal recursion
-	
