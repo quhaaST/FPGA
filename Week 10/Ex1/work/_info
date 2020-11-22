@@ -1,0 +1,199 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.1
+vadd
+Z0 !s110 1606053261
+!i10b 1
+!s100 N1eWWYjPo0oZDR2SFf?ae2
+I0c3L`GKK@1?nS0[T0KC4k1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/79030/Desktop/FPGA/Week 10/Ex1
+w1606053250
+8C:\Users\79030\Desktop\FPGA\Week 10\Ex1\add.v
+FC:\Users\79030\Desktop\FPGA\Week 10\Ex1\add.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1606053261.000000
+!s107 C:\Users\79030\Desktop\FPGA\Week 10\Ex1\add.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\79030\Desktop\FPGA\Week 10\Ex1\add.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+valu
+R0
+!i10b 1
+!s100 U4HPMcai2^[RiMDhN0=2b2
+Io4<hWeNK_^fVMAP<e@6?81
+R1
+R2
+w1606052707
+8C:\Users\79030\Desktop\FPGA\Week 10\Ex1\alu.v
+FC:\Users\79030\Desktop\FPGA\Week 10\Ex1\alu.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\79030\Desktop\FPGA\Week 10\Ex1\alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\79030\Desktop\FPGA\Week 10\Ex1\alu.v|
+!i113 1
+R5
+R6
+valu_testbench
+R0
+!i10b 1
+!s100 l4FjVYJ]6i;?5^]@S9Mio0
+I@1fO`@2__h^3Hj_NA5UmA2
+R1
+R2
+w1606052792
+8C:\Users\79030\Desktop\FPGA\Week 10\Ex1\alu_testbench.v
+FC:\Users\79030\Desktop\FPGA\Week 10\Ex1\alu_testbench.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\79030\Desktop\FPGA\Week 10\Ex1\alu_testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\79030\Desktop\FPGA\Week 10\Ex1\alu_testbench.v|
+!i113 1
+R5
+R6
+vb1_mux_2_1_case
+!s110 1605177114
+!i10b 1
+!s100 C]Q:4:H7oGFQOCU4[><BI1
+II4NTj:jYClVJKBnMXS;5G1
+R1
+R2
+w1605177109
+8C:\Users\79030\Desktop\FPGA\Week 10\Ex1\b1_mux_2_1_case.v
+FC:\Users\79030\Desktop\FPGA\Week 10\Ex1\b1_mux_2_1_case.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1605177114.000000
+!s107 C:\Users\79030\Desktop\FPGA\Week 10\Ex1\b1_mux_2_1_case.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\79030\Desktop\FPGA\Week 10\Ex1\b1_mux_2_1_case.v|
+!i113 1
+R5
+R6
+vglob
+R0
+!i10b 1
+!s100 b0ABYh7ijRe29?XHF8:fE2
+Izd8a7B]S?RiJ0G9X_beAJ3
+R1
+R2
+w1606052767
+8C:\Users\79030\Desktop\FPGA\Week 10\Ex1\glob.v
+FC:\Users\79030\Desktop\FPGA\Week 10\Ex1\glob.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\79030\Desktop\FPGA\Week 10\Ex1\glob.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\79030\Desktop\FPGA\Week 10\Ex1\glob.v|
+!i113 1
+R5
+R6
+vmux
+R0
+!i10b 1
+!s100 @J9fgeHcBHclGE>E_96Te3
+IXhL7`E@9IiC4SO:n?V93D0
+R1
+R2
+w1606052648
+8C:\Users\79030\Desktop\FPGA\Week 10\Ex1\mux.v
+FC:\Users\79030\Desktop\FPGA\Week 10\Ex1\mux.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\79030\Desktop\FPGA\Week 10\Ex1\mux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\79030\Desktop\FPGA\Week 10\Ex1\mux.v|
+!i113 1
+R5
+R6
+vsrl
+R0
+!i10b 1
+!s100 o;OCA67gmh?RoG1oGn5D42
+IR47TagVmzbU]VSk=:ML3M0
+R1
+R2
+w1606053043
+8C:\Users\79030\Desktop\FPGA\Week 10\Ex1\srl.v
+FC:\Users\79030\Desktop\FPGA\Week 10\Ex1\srl.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\79030\Desktop\FPGA\Week 10\Ex1\srl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\79030\Desktop\FPGA\Week 10\Ex1\srl.v|
+!i113 1
+R5
+R6
+vsub
+R0
+!i10b 1
+!s100 fiB@zI[OHY@T9f@oNdMH41
+IODn@hECgG;Qb69<ooCE;g3
+R1
+R2
+w1606052698
+8C:\Users\79030\Desktop\FPGA\Week 10\Ex1\sub.v
+FC:\Users\79030\Desktop\FPGA\Week 10\Ex1\sub.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\79030\Desktop\FPGA\Week 10\Ex1\sub.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\79030\Desktop\FPGA\Week 10\Ex1\sub.v|
+!i113 1
+R5
+R6
+vtestbench
+!s110 1605177751
+!i10b 1
+!s100 g13Li20;4cPhk7k`:E[[m3
+I0d?UcIB?jFk6>eP^cNoCd3
+R1
+R2
+w1605177735
+8C:\Users\79030\Desktop\FPGA\Week 10\Ex1\testbench.v
+FC:\Users\79030\Desktop\FPGA\Week 10\Ex1\testbench.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1605177751.000000
+!s107 C:\Users\79030\Desktop\FPGA\Week 10\Ex1\testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\79030\Desktop\FPGA\Week 10\Ex1\testbench.v|
+!i113 1
+R5
+R6

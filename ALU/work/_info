@@ -1,0 +1,157 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/79030/Desktop/FPGA/Week 10/Ex1
+vadd
+Z0 !s110 1606054623
+!i10b 1
+!s100 M?oE?UN;^8EA=YD4S4:4?1
+IdSM]TG2RH0CIm?DL36LK01
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/79030/Desktop/FPGA/ALU
+w1606054450
+8C:\Users\79030\Desktop\add.v
+FC:\Users\79030\Desktop\add.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1606054623.000000
+!s107 C:\Users\79030\Desktop\add.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\79030\Desktop\add.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+valu
+R0
+!i10b 1
+!s100 EBlFPI?hALJUj[mO9XbVW0
+I02Ab7A8[Q`XhJh=4E4Ogg1
+R1
+R2
+w1606054451
+8C:\Users\79030\Desktop\alu.v
+FC:\Users\79030\Desktop\alu.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\79030\Desktop\alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\79030\Desktop\alu.v|
+!i113 1
+R5
+R6
+valu_testbench
+R0
+!i10b 1
+!s100 l4FjVYJ]6i;?5^]@S9Mio0
+IjmOYKC^TC]3PLaoTbEPXR2
+R1
+R2
+w1606053606
+8C:\Users\79030\Downloads\week12\alu_testbench.v
+FC:\Users\79030\Downloads\week12\alu_testbench.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\79030\Downloads\week12\alu_testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\79030\Downloads\week12\alu_testbench.v|
+!i113 1
+R5
+R6
+vglob
+R0
+!i10b 1
+!s100 b0ABYh7ijRe29?XHF8:fE2
+ISjiS<2nPW7V8li8mGz@T40
+R1
+R2
+w1606053576
+8C:\Users\79030\Downloads\week12\glob.v
+FC:\Users\79030\Downloads\week12\glob.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\79030\Downloads\week12\glob.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\79030\Downloads\week12\glob.v|
+!i113 1
+R5
+R6
+vmux
+R0
+!i10b 1
+!s100 3P<34ELh9NfTZT=Q>dLR]3
+I6AeGkehm>P09zk]O3lM8Y2
+R1
+R2
+w1606054618
+8C:\Users\79030\Desktop\mux.v
+FC:\Users\79030\Desktop\mux.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\79030\Desktop\mux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\79030\Desktop\mux.v|
+!i113 1
+R5
+R6
+vsrl
+R0
+!i10b 1
+!s100 >LFPOINgPE@0@g:<]1Ifz2
+Ic;LSeYnMVfTfiChNUcK>C2
+R1
+R2
+w1606054449
+8C:\Users\79030\Downloads\week12\srl.v
+FC:\Users\79030\Downloads\week12\srl.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\79030\Downloads\week12\srl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\79030\Downloads\week12\srl.v|
+!i113 1
+R5
+R6
+vsub
+R0
+!i10b 1
+!s100 NnQ<OS9ko8=?PjYSGcMLD2
+I4L4FbNm28jNJaW6h^NCbP3
+R1
+R2
+w1606054452
+8C:\Users\79030\Desktop\sub.v
+FC:\Users\79030\Desktop\sub.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\79030\Desktop\sub.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\79030\Desktop\sub.v|
+!i113 1
+R5
+R6
